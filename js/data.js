@@ -10,7 +10,7 @@ const puzzles = [
         date: "19.08.1945",
 
         text:
-        "Tháng 8/1945 cuộc khởi nghĩa giành chính quyền diễn ra tại Hà Nội, là một dấu mốc quan trọng trong Tổng khởi nghĩa Tháng Tám năm 1945.",
+        "Tháng 8/1945 cuộc khởi nghĩa giành chính quyền diễn ra tại Hà Nội, là một dấu mốc quan trọng trong công cuộc Cách Mạng Tháng Tám năm 1945.",
 
         sourceName: "Trang thông tin điện tử Tuyên giáo và Dân vận Cao Bằng",
         source: "https://tuyengiaocaobang.vn/index.php/lich-su-truyen-thong/cach-mang-thang-tam-nam-1945-ban-hung-ca-bat-diet-457.html"
@@ -28,7 +28,7 @@ const puzzles = [
         date: "02.09.1945",
 
         text:
-        "Ngày 2/9/1945, đông đảo nhân dân tập trung tại Quảng trường Ba Đình, Hà Nội để dự lễ Độc lập.",
+        "Ngày 2/9/1945, đông đảo nhân dân tập trung tại Quảng trường Ba Đình, Hà Nội để dự Lễ kỷ niệm Ngày Độc lập đầu tiên.",
 
         sourceName: "YouTube: VN FilmMarker",
         source: "https://www.youtube.com/watch?v=SCPphVYDPDk"
@@ -46,7 +46,7 @@ const puzzles = [
         date: "02.09.1945",
 
         text:
-        "Tại Quảng trường Ba Đình, Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập, tuyên bố trước quốc dân và thế giới sự ra đời của nước Việt Nam Dân chủ Cộng hòa.",
+        "Tại Quảng trường Ba Đình, Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập, tuyên bố trước quốc dân và thế giới sự ra đời của nhà nước Việt Nam Dân chủ Cộng hòa.",
 
         sourceName: "báo Chính sách & Cuộc sống",
         source: "https://chinhsachcuocsong.vnanet.vn/79-nam-bac-ho-doc-tuyen-ngon-doc-lap-giu-vung-loi-the-lich-su/46272.html"
