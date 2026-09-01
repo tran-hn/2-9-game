@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>02.09 — Một ngày lịch sử</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+
+<body>
+
+<main id="game">
+
+
+    <!-- =================================
+         MÀN HÌNH CHÍNH
+    ================================== -->
+
+    <section id="menu"
+             class="screen active">
+
+        <div class="smallDate">
+            02 — 09
+        </div>
+
+        <h1>MỘT NGÀY<br>LỊCH SỬ</h1>
+
+        <p>
+            Ghép lại những mảnh hình ảnh<br>
+            và khám phá những câu chuyện phía sau.
+        </p>
+
+        <button onclick="startGame()">
+            BẮT ĐẦU
+        </button>
+
+    </section>
+
+
+
+    <!-- =================================
+         PUZZLE
+    ================================== -->
+
+    <section id="puzzleScreen"
+             class="screen">
+
+        <div class="puzzleHeader">
+
+            <span id="puzzleNumber">
+                01 / 04
+            </span>
+
+            <span>
+                02.09
+            </span>
+
+        </div>
+
+
+        <div id="puzzleDate"
+             class="puzzleDate">
+        </div>
+
+
+        <h2 id="puzzleTitle">
+            HÀ NỘI
+        </h2>
+
+
+        <p class="instruction">
+            Chọn hai mảnh để đổi vị trí.
+        </p>
+
+
+        <div id="puzzle"></div>
+
+
+        <div id="counter">
+
+            <span id="correct">0</span>
+            / 12 mảnh đúng
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =================================
+         THÔNG TIN
+    ================================== -->
+
+    <section id="infoScreen"
+             class="screen">
+
+        <div id="infoNumber"
+             class="smallDate">
+        </div>
+
+
+        <div id="infoDate"
+             class="date">
+        </div>
+
+
+        <h1 id="infoTitle"></h1>
+
+
+        <img id="infoImage"
+             src=""
+             alt="Hình ảnh lịch sử">
+
+
+        <p id="infoText"></p>
+
+
+        <div class="infoButtons">
+
+            <button id="sourceButton"
+                    class="secondaryButton">
+
+                NGUỒN ẢNH
+
+            </button>
+
+
+            <button onclick="nextPuzzle()">
+
+                TIẾP TỤC
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =================================
+         4 BỨC ẢNH
+    ================================== -->
+
+    <section id="summaryScreen"
+             class="screen">
+
+        <div class="smallDate">
+            02 — 09
+        </div>
+
+
+        <h1>
+            4 BỨC ẢNH
+        </h1>
+
+
+        <h2>
+            4 KHOẢNH KHẮC
+        </h2>
+
+
+        <div id="summaryImages">
+
+            <!-- JS sẽ thêm ảnh -->
+
+        </div>
+
+
+        <p class="summaryText">
+            Nhưng chúng kể cùng một câu chuyện.
+        </p>
+
+
+        <button onclick="showNewspaper()">
+            TIẾP TỤC
+        </button>
+
+    </section>
+
+
+
+    <!-- =================================
+         TỜ BÁO
+    ================================== -->
+
+    <section id="newspaperScreen"
+             class="screen">
+
+        <div class="newspaper">
+
+            <div class="newspaperTop">
+                BẢN TIN ĐẶC BIỆT
+            </div>
+
+
+            <div class="newspaperDate">
+                02 / 09
+            </div>
+
+
+            <div class="newspaperLine"></div>
+
+
+            <h1>
+                MỘT NGÀY<br>
+                LỊCH SỬ
+            </h1>
+
+
+            <p>
+                Những hình ảnh của quá khứ
+                vẫn còn được lưu giữ cho mai sau.
+            </p>
+
+
+            <div class="newspaperLine"></div>
+
+
+            <div class="newspaperSmall">
+                08.1945 — 02.09.1945 — 02.09.2025
+            </div>
+
+        </div>
+
+
+        <div class="question">
+
+            Câu chuyện lịch sử này<br>
+            sẽ không bao giờ được quên.
+
+        </div>
+
+
+        <div id="moreText">
+            CÒN NỮA...
+        </div>
+
+    </section>
+
+
+
+    <!-- =================================
+         KẾT THÚC
+    ================================== -->
+
+    <section id="endScreen"
+             class="screen">
+
+        <div class="smallDate">
+            02 — 09
+        </div>
+
+
+        <h1>
+            MỘT NGÀY<br>
+            LỊCH SỬ
+        </h1>
+
+
+        <button onclick="location.reload()">
+            CHƠI LẠI
+        </button>
+
+    </section>
+
+
+</main>
+
+
+<!-- ÂM THANH -->
+
+<audio id="paperSound"
+       src="assets/audio/paper.wav"
+       preload="auto">
+</audio>
+
+
+<!-- JAVASCRIPT -->
+
+<script src="js/data.js"></script>
+
+<script src="js/puzzle.js"></script>
+
+<script src="js/main.js"></script>
+
+
+</body>
+
+</html>
